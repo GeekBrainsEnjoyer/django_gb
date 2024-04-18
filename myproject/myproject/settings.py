@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'myapp',
     'hwapp',
-    'bootstrap5',
+    # 'bootstrap5',
 
 ]
 
