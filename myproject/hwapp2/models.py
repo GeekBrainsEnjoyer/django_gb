@@ -28,8 +28,8 @@ class Product(models.Model):
 
 
 class Order(models.Model):
-    products = models.ManyToManyField(Product, on_delete=models.CASCADE)
-    clients = models.ManyToManyField(Client, on_delete=models.CASCADE)
+    products = models.ManyToManyField(Product)
+    clients = models.ManyToManyField(Client)
     total_sum = models.DecimalField()
     created_at = models.DateTimeField(auto_now_add=True)
 
