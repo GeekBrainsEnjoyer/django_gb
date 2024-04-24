@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block title %}
+  Orders
+{% endblock %}
+
+{% block content %}
+  <p>Products in Orders{{ message }}</p>
+  {% for order in orders %}
+    <li>{{ order }}</li>
+  {% endfor %}
+{% endblock %}

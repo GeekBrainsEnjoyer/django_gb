@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'myapp',
     'hwapp',
     'hwapp2',
+    'hwapp3',
     'bootstrap5',
 
 ]
@@ -59,7 +60,7 @@ ROOT_URLCONF = 'myproject.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [BASE_DIR / 'templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
