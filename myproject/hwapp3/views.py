@@ -15,6 +15,7 @@ def client_orders_by_date(request, client_pk, days):
     client = get_object_or_404(Client, pk=client_pk)
     orders = Order.objects.filter(customer=client).filter(created_at__range=[
         str(datetime.now() - timedelta(days)), str(datetime.now())]).order_by('created_at')
+    
 
     return render(request, 'hwapp3/client_orders.html', {'orders': orders})
 
