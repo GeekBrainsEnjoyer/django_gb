@@ -17,3 +17,9 @@ def client_orders_by_date(request, client_pk, days):
         str(datetime.now() - timedelta(days)), str(datetime.now())]).order_by('created_at')
 
     return render(request, 'hwapp3/client_orders.html', {'orders': orders})
+
+
+def index(request):
+    clients = Client.objects.all()
+
+    return render(request, 'hwapp3/clients.html', {'clients': clients})
