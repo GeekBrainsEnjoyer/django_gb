@@ -2715,3 +2715,92 @@ INFO 2024-04-25 08:18:56,635 basehttp 26313 140487029163584 "GET / HTTP/1.1" 200
 INFO 2024-04-25 08:18:57,141 basehttp 26313 140487029163584 "GET /about/ HTTP/1.1" 200 4823
 INFO 2024-04-25 08:18:57,387 basehttp 26313 140487029163584 "GET /client_orders/ HTTP/1.1" 200 2401
 INFO 2024-04-25 08:20:05,630 basehttp 26313 140487029163584 "GET /client_orders/ HTTP/1.1" 200 2401
+INFO 2024-04-25 08:21:50,433 autoreload 28076 140627424010240 Watching for file changes with StatReloader
+INFO 2024-04-25 08:21:52,326 basehttp 28076 140627381974592 "GET /client_orders/ HTTP/1.1" 200 2401
+INFO 2024-04-25 08:21:53,251 basehttp 28076 140627381974592 "GET /client_orders/1/ HTTP/1.1" 200 1934
+INFO 2024-04-25 08:21:54,050 basehttp 28076 140627381974592 "GET /client_orders/5/ HTTP/1.1" 200 2065
+INFO 2024-04-25 08:21:54,809 basehttp 28076 140627381974592 "GET /client_orders/9/ HTTP/1.1" 200 2720
+INFO 2024-04-25 08:21:55,811 basehttp 28076 140627381974592 "GET /about/ HTTP/1.1" 200 4823
+INFO 2024-04-25 08:21:56,211 basehttp 28076 140627381974592 "GET / HTTP/1.1" 200 985
+INFO 2024-04-25 08:21:56,492 basehttp 28076 140627381974592 "GET /about/ HTTP/1.1" 200 4823
+INFO 2024-04-25 08:21:56,787 basehttp 28076 140627381974592 "GET /client_orders/ HTTP/1.1" 200 2401
+INFO 2024-04-25 08:21:57,335 basehttp 28076 140627381974592 "GET /client_orders/15/ HTTP/1.1" 200 1017
+INFO 2024-04-27 04:54:32,167 autoreload 16376 140277349482496 Watching for file changes with StatReloader
+INFO 2024-04-27 04:54:48,333 autoreload 16376 140277349482496 /home/sh/django_gb/django_gb/myproject/hwapp4/urls.py changed, reloading.
+INFO 2024-04-27 04:54:48,552 autoreload 16533 140345537159168 Watching for file changes with StatReloader
+INFO 2024-04-27 04:55:21,498 autoreload 17004 139659436834816 Watching for file changes with StatReloader
+INFO 2024-04-27 04:55:23,623 basehttp 17004 139659317343808 "GET / HTTP/1.1" 200 985
+WARNING 2024-04-27 04:55:23,880 log 17004 139659317343808 Not Found: /favicon.ico
+WARNING 2024-04-27 04:55:23,880 basehttp 17004 139659317343808 "GET /favicon.ico HTTP/1.1" 404 2774
+INFO 2024-04-27 04:55:25,248 basehttp 17004 139659317343808 "GET / HTTP/1.1" 200 985
+INFO 2024-04-27 04:55:33,109 basehttp 17004 139659317343808 "GET /product_form HTTP/1.1" 301 0
+INFO 2024-04-27 04:55:33,119 basehttp 17004 139659308951104 "GET /product_form/ HTTP/1.1" 200 2061
+ERROR 2024-04-27 04:55:52,130 log 17004 139659308951104 Internal Server Error: /product_form/
+Traceback (most recent call last):
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: no such table: hwapp4_producthwapp4
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sh/django_gb/django_gb/myproject/hwapp4/views.py", line 11, in product_form
+    form.save()
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/forms/models.py", line 542, in save
+    self.instance.save()
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/db/models/base.py", line 814, in save
+    self.save_base(
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/db/models/base.py", line 877, in save_base
+    updated = self._save_table(
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/db/models/base.py", line 1020, in _save_table
+    results = self._do_insert(
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/db/models/base.py", line 1061, in _do_insert
+    return manager._insert(
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1822, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: no such table: hwapp4_producthwapp4
+ERROR 2024-04-27 04:55:52,131 basehttp 17004 139659308951104 "POST /product_form/ HTTP/1.1" 500 148144
+INFO 2024-04-27 04:57:16,805 autoreload 18541 139788691648512 Watching for file changes with StatReloader
+INFO 2024-04-27 04:57:20,901 basehttp 18541 139788569015872 "POST /product_form/ HTTP/1.1" 302 0
+INFO 2024-04-27 04:57:20,906 basehttp 18541 139788569015872 "GET / HTTP/1.1" 200 985
+INFO 2024-04-27 04:57:28,035 basehttp 18541 139788569015872 "GET /product_form/ HTTP/1.1" 200 2061
+INFO 2024-04-27 04:57:33,329 basehttp 18541 139788569015872 "POST /product_form/ HTTP/1.1" 302 0
+INFO 2024-04-27 04:57:33,332 basehttp 18541 139788569015872 "GET / HTTP/1.1" 200 985
+INFO 2024-04-27 04:59:17,124 basehttp 18541 139788569015872 "GET / HTTP/1.1" 200 985
+INFO 2024-04-27 04:59:20,964 basehttp 18541 139788569015872 "GET /client_orders/7/ HTTP/1.1" 200 2196
+INFO 2024-04-27 04:59:27,326 basehttp 18541 139788569015872 "GET /product_form/ HTTP/1.1" 200 2091
+INFO 2024-04-27 04:59:33,052 basehttp 18541 139788569015872 "POST /product_form/ HTTP/1.1" 302 0
+INFO 2024-04-27 04:59:33,055 basehttp 18541 139788569015872 "GET / HTTP/1.1" 200 985
+INFO 2024-04-27 05:00:23,781 autoreload 18541 139788691648512 /home/sh/django_gb/django_gb/myproject/hwapp4/views.py changed, reloading.
+INFO 2024-04-27 05:00:23,974 autoreload 20043 139625190936576 Watching for file changes with StatReloader
+INFO 2024-04-27 05:00:43,142 basehttp 20043 139625143203392 "GET / HTTP/1.1" 200 985
+INFO 2024-04-27 05:00:49,550 basehttp 20043 139625143203392 "GET /product_form/ HTTP/1.1" 200 2091
+INFO 2024-04-27 05:00:54,094 basehttp 20043 139625143203392 "POST /product_form/ HTTP/1.1" 302 0
+INFO 2024-04-27 05:00:54,097 basehttp 20043 139625143203392 "GET / HTTP/1.1" 200 985
+INFO 2024-04-27 05:01:51,209 basehttp 20043 139625143203392 "GET / HTTP/1.1" 200 1109
+INFO 2024-04-27 05:01:52,096 basehttp 20043 139625143203392 "GET /product_form/ HTTP/1.1" 200 2215
+INFO 2024-04-27 05:02:04,787 basehttp 20043 139625143203392 "GET /product_form/ HTTP/1.1" 200 2215
