@@ -11,6 +11,10 @@ class Client(models.Model):
     address = models.CharField(max_length=255, blank=True, null=True)
     created_at = models.DateTimeField(auto_now_add=True)
 
+    class Meta:
+        verbose_name = ("Client")
+        verbose_name_plural = ("Clients")
+
     def __str__(self):
         return self.name
 
@@ -22,6 +26,7 @@ class Product(models.Model):
         decimal_places=2, max_digits=8, blank=True, null=True)
     quantity = models.PositiveIntegerField(default=1)
     created_at = models.DateTimeField(auto_now_add=True)
+    image = models.ImageField(upload_to='media', blank=True, null=True)
 
     class Meta:
         verbose_name = ("Product")
@@ -29,10 +34,6 @@ class Product(models.Model):
 
     def __str__(self):
         return self.name
-
-
-class Producthwapp(Product):
-    image = models.ImageField(upload_to='media', blank=True, null=True)
 
 
 class Order(models.Model):

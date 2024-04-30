@@ -23,17 +23,17 @@ class Command(BaseCommand):
         start_date = datetime.datetime.now() - datetime.timedelta(days=600)
         end_date = datetime.datetime.now()
 
-        for i in range(1, clients_count + 1):
+        for i in range(1, clients_count):
             client = Client(name=f'Client-{i}')
             client.save()
 
-        for j in range(1, products_count + 1):
+        for j in range(1, products_count):
             product = Product(name=f'Product-{j}')
             product.save()
 
-        for k in range(1, orders_count + 1):
-            cus = Client.objects.get(pk=randint(1, clients_count+1))
-            prod = Product.objects.get(pk=randint(1, products_count+1))
+        for k in range(1, orders_count):
+            cus = Client.objects.get(pk=randint(1, clients_count))
+            prod = Product.objects.get(pk=randint(1, products_count))
             order = Order(customer=cus)
             order.save()
             order.products.add(prod)

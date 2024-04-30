@@ -3006,3 +3006,465 @@ INFO 2024-04-30 10:15:38,974 basehttp 11153 139675242067520 "GET /15/ HTTP/1.1" 
 INFO 2024-04-30 10:15:40,542 basehttp 11153 139675242067520 "GET /16/ HTTP/1.1" 200 1127
 INFO 2024-04-30 10:15:41,762 basehttp 11153 139675242067520 "GET /18/ HTTP/1.1" 200 1127
 INFO 2024-04-30 10:15:42,981 basehttp 11153 139675242067520 "GET /5/ HTTP/1.1" 200 2307
+INFO 2024-04-30 11:26:32,741 autoreload 41699 139974694666240 Watching for file changes with StatReloader
+INFO 2024-04-30 11:26:34,992 basehttp 41699 139974647215680 "GET / HTTP/1.1" 200 2231
+INFO 2024-04-30 11:26:41,025 basehttp 41699 139974647215680 "GET /admin/ HTTP/1.1" 302 0
+INFO 2024-04-30 11:26:41,043 basehttp 41699 139974647215680 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+INFO 2024-04-30 11:26:41,126 basehttp 41699 139974619940416 "GET /static/admin/css/login.css HTTP/1.1" 200 958
+INFO 2024-04-30 11:26:41,126 basehttp 41699 139974638822976 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2929
+INFO 2024-04-30 11:26:41,127 basehttp 41699 139974628333120 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2694
+INFO 2024-04-30 11:26:41,127 basehttp 41699 139974259242560 "GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+INFO 2024-04-30 11:26:41,128 basehttp 41699 139974647215680 "GET /static/admin/css/base.css HTTP/1.1" 200 21310
+INFO 2024-04-30 11:26:41,128 basehttp 41699 139974611547712 "GET /static/admin/css/responsive.css HTTP/1.1" 200 18559
+INFO 2024-04-30 11:26:41,129 basehttp 41699 139974638822976 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2024-04-30 11:26:44,253 basehttp 41699 139974647215680 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2024-04-30 11:26:44,265 basehttp 41699 139974647215680 "GET /admin/ HTTP/1.1" 200 6992
+INFO 2024-04-30 11:26:44,320 basehttp 41699 139974647215680 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2024-04-30 11:26:44,366 basehttp 41699 139974638822976 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2024-04-30 11:26:44,367 basehttp 41699 139974647215680 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2024-04-30 11:26:48,096 basehttp 41699 139974647215680 "GET /admin/ HTTP/1.1" 200 6992
+INFO 2024-04-30 11:26:49,871 basehttp 41699 139974647215680 "GET /admin/hwapp/producthwapp/ HTTP/1.1" 200 8167
+INFO 2024-04-30 11:26:49,880 basehttp 41699 139974647215680 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6566
+INFO 2024-04-30 11:26:49,888 basehttp 41699 139974619940416 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8943
+INFO 2024-04-30 11:26:49,892 basehttp 41699 139974628333120 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2024-04-30 11:26:49,894 basehttp 41699 139974259242560 "GET /static/admin/js/core.js HTTP/1.1" 200 5682
+INFO 2024-04-30 11:26:49,896 basehttp 41699 139974628333120 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2024-04-30 11:26:49,897 basehttp 41699 139974619940416 "GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+INFO 2024-04-30 11:26:49,898 basehttp 41699 139974259242560 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2024-04-30 11:26:49,901 basehttp 41699 139974638822976 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-04-30 11:26:49,902 basehttp 41699 139974611547712 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 292458
+INFO 2024-04-30 11:26:49,906 basehttp 41699 139974638822976 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+INFO 2024-04-30 11:26:49,955 basehttp 41699 139974638822976 "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2024-04-30 11:26:49,969 basehttp 41699 139974611547712 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2024-04-30 11:26:53,374 basehttp 41699 139974611547712 "GET /admin/hwapp/producthwapp/ HTTP/1.1" 200 8167
+INFO 2024-04-30 11:26:53,387 basehttp 41699 139974611547712 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-04-30 11:37:59,675 autoreload 48033 140178096820224 Watching for file changes with StatReloader
+INFO 2024-04-30 11:38:03,255 basehttp 48033 140178048939584 "GET /admin/hwapp/producthwapp/ HTTP/1.1" 302 0
+INFO 2024-04-30 11:38:03,268 basehttp 48033 140178048939584 "GET /admin/login/?next=/admin/hwapp/producthwapp/ HTTP/1.1" 200 4305
+INFO 2024-04-30 11:38:05,985 basehttp 48033 140178048939584 "POST /admin/login/?next=/admin/hwapp/producthwapp/ HTTP/1.1" 200 4572
+ERROR 2024-04-30 11:38:10,833 log 48033 140178048939584 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: no such table: hwapp_client
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sh/django_gb/django_gb/myproject/hwapp/views.py", line 30, in index
+    return render(request, 'hwapp/clients.html', {'clients': clients})
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 194, in render
+    len_values = len(values)
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/db/models/query.py", line 380, in __len__
+    self._fetch_all()
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/db/models/query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: no such table: hwapp_client
+ERROR 2024-04-30 11:38:10,835 basehttp 48033 140178048939584 "GET / HTTP/1.1" 500 205262
+ERROR 2024-04-30 11:38:11,357 log 48033 140178048939584 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: no such table: hwapp_client
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sh/django_gb/django_gb/myproject/hwapp/views.py", line 30, in index
+    return render(request, 'hwapp/clients.html', {'clients': clients})
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 194, in render
+    len_values = len(values)
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/db/models/query.py", line 380, in __len__
+    self._fetch_all()
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/db/models/query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: no such table: hwapp_client
+ERROR 2024-04-30 11:38:11,357 basehttp 48033 140178048939584 "GET / HTTP/1.1" 500 204988
+INFO 2024-04-30 11:40:31,122 autoreload 49411 140641919987712 Watching for file changes with StatReloader
+ERROR 2024-04-30 11:40:34,048 log 49411 140641871853120 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: no such table: hwapp_client
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sh/django_gb/django_gb/myproject/hwapp/views.py", line 30, in index
+    return render(request, 'hwapp/clients.html', {'clients': clients})
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 194, in render
+    len_values = len(values)
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/db/models/query.py", line 380, in __len__
+    self._fetch_all()
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/db/models/query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: no such table: hwapp_client
+ERROR 2024-04-30 11:40:34,050 basehttp 49411 140641871853120 "GET / HTTP/1.1" 500 205125
+INFO 2024-04-30 11:41:09,944 basehttp 49411 140641871853120 "GET /about HTTP/1.1" 301 0
+INFO 2024-04-30 11:41:09,948 basehttp 49411 140641791112768 "GET /about/ HTTP/1.1" 200 4933
+WARNING 2024-04-30 11:41:16,214 log 49411 140641791112768 Not Found: /client_orders/7/
+WARNING 2024-04-30 11:41:16,215 basehttp 49411 140641791112768 "GET /client_orders/7/ HTTP/1.1" 404 3170
+WARNING 2024-04-30 11:41:19,628 log 49411 140641791112768 Not Found: /client_orders/
+WARNING 2024-04-30 11:41:19,629 basehttp 49411 140641791112768 "GET /client_orders/ HTTP/1.1" 404 3164
+WARNING 2024-04-30 11:41:20,186 log 49411 140641791112768 Not Found: /client_orders/
+WARNING 2024-04-30 11:41:20,187 basehttp 49411 140641791112768 "GET /client_orders/ HTTP/1.1" 404 3164
+WARNING 2024-04-30 11:41:23,419 log 49411 140641791112768 Not Found: /client_orders
+WARNING 2024-04-30 11:41:23,419 basehttp 49411 140641791112768 "GET /client_orders HTTP/1.1" 404 3161
+WARNING 2024-04-30 11:41:23,811 log 49411 140641791112768 Not Found: /client_orders
+WARNING 2024-04-30 11:41:23,812 basehttp 49411 140641791112768 "GET /client_orders HTTP/1.1" 404 3161
+INFO 2024-04-30 11:41:34,217 basehttp 49411 140641791112768 "GET /product_form HTTP/1.1" 301 0
+INFO 2024-04-30 11:41:34,229 basehttp 49411 140641871853120 "GET /product_form/ HTTP/1.1" 200 2093
+INFO 2024-04-30 11:42:44,798 autoreload 49411 140641919987712 /home/sh/django_gb/django_gb/myproject/hwapp/models.py changed, reloading.
+INFO 2024-04-30 11:42:45,005 autoreload 50566 140250248171520 Watching for file changes with StatReloader
+INFO 2024-04-30 11:42:51,145 autoreload 50566 140250248171520 /home/sh/django_gb/django_gb/myproject/hwapp/models.py changed, reloading.
+INFO 2024-04-30 11:42:51,371 autoreload 50647 140015923634176 Watching for file changes with StatReloader
+INFO 2024-04-30 11:43:19,601 autoreload 50647 140015923634176 /home/sh/django_gb/django_gb/myproject/hwapp/views.py changed, reloading.
+INFO 2024-04-30 11:43:19,807 autoreload 50877 139851590451200 Watching for file changes with StatReloader
+INFO 2024-04-30 11:43:37,994 autoreload 50877 139851590451200 /home/sh/django_gb/django_gb/myproject/hwapp/admin.py changed, reloading.
+INFO 2024-04-30 11:43:38,199 autoreload 51049 140125213425664 Watching for file changes with StatReloader
+INFO 2024-04-30 11:45:08,835 autoreload 51894 139855491260416 Watching for file changes with StatReloader
+ERROR 2024-04-30 11:45:12,375 log 51894 139855442998848 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: no such table: hwapp_client
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sh/django_gb/django_gb/myproject/hwapp/views.py", line 10, in index
+    return render(request, 'hwapp/clients.html', {'clients': clients})
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 194, in render
+    len_values = len(values)
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/db/models/query.py", line 380, in __len__
+    self._fetch_all()
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/db/models/query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: no such table: hwapp_client
+ERROR 2024-04-30 11:45:12,377 basehttp 51894 139855442998848 "GET / HTTP/1.1" 500 204946
+INFO 2024-04-30 11:45:54,559 autoreload 52396 140494155837440 Watching for file changes with StatReloader
+INFO 2024-04-30 11:45:58,978 basehttp 52396 140494107571776 "GET /admin/ HTTP/1.1" 302 0
+INFO 2024-04-30 11:45:58,991 basehttp 52396 140494107571776 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+INFO 2024-04-30 11:46:01,539 basehttp 52396 140494107571776 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2024-04-30 11:46:01,552 basehttp 52396 140494107571776 "GET /admin/ HTTP/1.1" 200 7407
+ERROR 2024-04-30 11:46:04,139 log 52396 140494107571776 Internal Server Error: /admin/hwapp/client/
+Traceback (most recent call last):
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: no such table: hwapp_client
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/views/decorators/cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1926, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 836, in get_changelist_instance
+    return ChangeList(
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/contrib/admin/views/main.py", line 123, in __init__
+    self.get_results(request)
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/contrib/admin/views/main.py", line 279, in get_results
+    result_count = paginator.count
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/utils/functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/core/paginator.py", line 93, in count
+    return c()
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/db/models/query.py", line 608, in count
+    return self.query.get_count(using=self.db)
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 568, in get_count
+    return obj.get_aggregation(using, {"__count": Count("*")})["__count"]
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 554, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/sh/django_gb/django_gb/venv/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: no such table: hwapp_client
+ERROR 2024-04-30 11:46:04,141 basehttp 52396 140494107571776 "GET /admin/hwapp/client/ HTTP/1.1" 500 179755
+INFO 2024-04-30 11:49:53,078 autoreload 54377 139856003239936 Watching for file changes with StatReloader
+INFO 2024-04-30 11:49:58,189 basehttp 54377 139855955752512 "GET /admin/hwapp/client/ HTTP/1.1" 302 0
+INFO 2024-04-30 11:49:58,203 basehttp 54377 139855955752512 "GET /admin/login/?next=/admin/hwapp/client/ HTTP/1.1" 200 4293
+INFO 2024-04-30 11:50:02,188 basehttp 54377 139855955752512 "GET / HTTP/1.1" 200 1118
+INFO 2024-04-30 11:50:03,940 basehttp 54377 139855955752512 "GET / HTTP/1.1" 200 1118
+INFO 2024-04-30 11:50:52,144 autoreload 55160 140270084157440 Watching for file changes with StatReloader
+INFO 2024-04-30 11:50:53,734 basehttp 55160 140270036317760 "GET /admin/ HTTP/1.1" 302 0
+INFO 2024-04-30 11:50:53,748 basehttp 55160 140270036317760 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+INFO 2024-04-30 11:50:57,356 basehttp 55160 140270036317760 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2024-04-30 11:50:57,371 basehttp 55160 140270036317760 "GET /admin/ HTTP/1.1" 200 7407
+INFO 2024-04-30 11:50:58,906 basehttp 55160 140270036317760 "GET /admin/ HTTP/1.1" 200 7407
+INFO 2024-04-30 11:51:00,188 basehttp 55160 140270036317760 "GET /admin/hwapp/client/ HTTP/1.1" 200 13195
+INFO 2024-04-30 11:51:00,203 basehttp 55160 140270036317760 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-04-30 11:51:01,777 basehttp 55160 140270036317760 "GET /admin/ HTTP/1.1" 200 7407
+INFO 2024-04-30 11:51:02,605 basehttp 55160 140270036317760 "GET /admin/hwapp/order/ HTTP/1.1" 200 41378
+INFO 2024-04-30 11:51:02,619 basehttp 55160 140270036317760 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-04-30 11:51:07,694 basehttp 55160 140270036317760 "GET /admin/ HTTP/1.1" 200 7407
+INFO 2024-04-30 11:51:08,551 basehttp 55160 140270036317760 "GET /admin/hwapp/product/ HTTP/1.1" 200 13933
+INFO 2024-04-30 11:51:08,563 basehttp 55160 140270036317760 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-04-30 11:51:14,802 basehttp 55160 140270036317760 "GET /admin/hwapp/product/18/change/ HTTP/1.1" 200 12350
+INFO 2024-04-30 11:51:14,816 basehttp 55160 140270036317760 "GET /static/admin/css/forms.css HTTP/1.1" 200 9090
+INFO 2024-04-30 11:51:14,817 basehttp 55160 140270026876480 "GET /static/admin/js/collapse.js HTTP/1.1" 200 1803
+INFO 2024-04-30 11:51:14,823 basehttp 55160 140269806679616 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2024-04-30 11:51:14,826 basehttp 55160 140269798286912 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-04-30 11:51:14,829 basehttp 55160 140269798286912 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2024-04-30 11:51:14,864 basehttp 55160 140270036317760 "GET /static/admin/css/widgets.css HTTP/1.1" 200 11921
