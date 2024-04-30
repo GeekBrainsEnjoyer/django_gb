@@ -1,9 +1,9 @@
 from django import forms
 
-from .models import Producthwapp4
+from .models import Producthwapp
 
 
 class ProductForm(forms.ModelForm):
     class Meta:
-        model = Producthwapp4
+        model = Producthwapp
         fields = ('__all__')

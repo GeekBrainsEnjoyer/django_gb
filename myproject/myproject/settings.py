@@ -37,11 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'myapp',
+
     'hwapp',
-    'hwapp2',
-    'hwapp3',
-    'hwapp4',
     'bootstrap5',
 
 ]

@@ -1,10 +1,10 @@
 import datetime
 from random import randint
 import random
-from typing import Any
+
 from django.core.management.base import BaseCommand
 
-from hwapp2.models import Client, Order, Product
+from hwapp.models import Client, Order, Product
 
 
 class Command(BaseCommand):

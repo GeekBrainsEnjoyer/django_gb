@@ -8,7 +8,7 @@
   <p>Clients:</p>
   {% for client in clients %}
     <li>
-      <a href="{% url 'hwapp3:client_orders' client.id %}">{{ client }}</a>
+      <a href="{% url 'hwapp:client_orders' client.id %}">{{ client }}</a>
     </li>
   {% endfor %}
 {% endblock %}
